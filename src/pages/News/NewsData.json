@@ -1,0 +1,32 @@
+{
+    "categories":[
+        {
+            "cat":"Latest",
+            "link":"#"
+        },
+        {
+            "cat":"Culture",
+            "link":"#"
+        },
+        {
+            "cat":"World",
+            "link":"#"
+        },
+        {
+            "cat":"Business",
+            "link":"#"
+        },
+        {
+            "cat":"Politics",
+            "link":"#"
+        },
+        {
+            "cat":"Economy",
+            "link":"#"
+        },
+        {
+            "cat":"Sports",
+            "link":"#"
+        }
+    ]
+}

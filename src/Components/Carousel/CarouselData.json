@@ -1,0 +1,28 @@
+{ "slides":[
+    {
+        "src":"https://picsum.photos/536/354",
+        "alt":"firstslide",
+        "text" :" The important things that matter on just a click away"
+    },
+    {
+        "src":"https://picsum.photos/id/1084/536/354?grayscale",
+        "alt":"secondslide",
+        "text":" Stay Aware and Informated about everything surronding you"
+    },
+    {
+        "src":"https://picsum.photos/id/11/367/267",
+        "alt":"thirdslide",
+        "text":" Keep your mind fresh and active"
+    },
+    {
+        "src":"https://picsum.photos/id/12/367/267",
+        "alt":"fourthslide",
+        "text": "We care about the things that mattered"
+    },
+    {
+        "src":"https://picsum.photos/id/15/367/267",
+        "alt":"fifthslide",
+        "text" : "Your Newsletter is here. Be ready to get informed "
+    }
+]
+}

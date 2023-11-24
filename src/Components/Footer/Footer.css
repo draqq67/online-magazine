@@ -1,0 +1,29 @@
+.mainFooter{
+    bottom: 0; 
+    align-self: flex-end;
+    margin-top:10px;
+    padding : 1%;
+    max-height: min-content;
+    text-align: center;
+}
+
+.brand{
+    font-size:larger;
+    font-weight:900;
+    padding:1%;
+}
+.brand:hover
+{
+    font-style:italic;
+    color: white;
+
+}
+.socialLinks{
+    justify-content: center;
+    margin-top:10px
+}
+.copyright{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;;
+}

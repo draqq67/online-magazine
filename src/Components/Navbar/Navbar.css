@@ -1,0 +1,36 @@
+
+.navbar{
+    margin-bottom: 5px;
+    padding: 10px;
+    max-height:100px;
+}
+.leftnav,.rightnav{
+
+    max-height: 100px;
+    margin-left : 20px;
+    margin-right:0px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    /* justify-content: flex-start;
+    align-items: end; */
+}
+.rightnav{
+    margin-right: 20px;
+    width: fit-content;
+}
+.nav-link{
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+.nav-link:hover{
+    
+    box-shadow: inset 100px 0 0 0 grey;
+    color: white;
+}
+/* .navbar-brand{
+   font-size: medium;
+       justify-content: flex-start;
+}
+.navbar-toggler{
+    align-self: center;
+} */
