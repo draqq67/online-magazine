@@ -14,23 +14,24 @@ export default function Home ()
     console.log(CarouselData.slides[2].src)
     return (
         <div className='homecontainer'>
-            <Row className = "topPart">
+            {/* <Row className = "topPart">
                 <Col>
                 {
                     data.map((item,idx) =>{
                         return <a href={item.link} className='newslinks'>{item.cat}</a>
                     })
                 }
-                </Col>
-                <Col xs={6}>
+                </Col> */}
+                <div className='carousel'>
                     <Carousel data={CarouselData.slides} />
-                </Col>
-                <Col>
-                <div className ="ad">
+                    </div>
+                {/* </Col>
+                <Col className ="ad">
+                <div>
                     Get your Advertisment here
                 </div>
-                </Col>
-            </Row>
+                </Col> */}
+            {/* </Row> */}
             <Cards data={CardsData.information}/>
             </div>    
     )

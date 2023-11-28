@@ -2,9 +2,8 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import './Navbar.css';
 
-import logo from '../../photos/logo.jpg'
+import './Navbar.css';
 
 
 
@@ -15,7 +14,7 @@ export default function PageNavbar ()
         <Navbar expand="lg" className=" bg-secondary bg-gradient">
             <Navbar.Toggle  className='navbar-toggler ml-auto hidden-sm-up float-xs-right' data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"/>
             <Navbar.Brand >
-                <img src={logo}
+                <img src="https://www.creativefabrica.com/wp-content/uploads/2021/08/22/Random-circle-logo-like-a-maze-Graphics-16173883-1.jpg"
                 height="30"
                 width="auto"
                 alt="Dragos News">

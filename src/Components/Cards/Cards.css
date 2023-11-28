@@ -1,10 +1,18 @@
-.card{
+.homecards{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.homecard{
     width: 18rem;
     margin : 20px;
     margin-top: 50px;
-    display:inline-block;
+    /* display:inline-block; */
     border-radius: 10%;
+    border : 1px solid white;
+    
 }
-.card-img-top{
+.homecard-img-top{
     border-radius: 10%;
 }

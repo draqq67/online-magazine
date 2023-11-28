@@ -1,8 +1,9 @@
 
-
+import NewsCards from "../../Components/NewsCards/NewsCards"
+import NewsCardsData from "../News/NewsTemplate/NewsTemplate.json"
 export default function News ()
 {
     return (
-        <h3>News</h3>
+        <NewsCards data = {NewsCardsData.news} />
     )
 }

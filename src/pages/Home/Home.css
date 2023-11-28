@@ -2,11 +2,16 @@
 .homecontainer{
     margin: 50px 0;
 }
+.topPart{
+    height:80%
+}
 .topPart .col {
     border: 4mm ridge rgba(211, 220, 50, .6);
     text-align: center;
     padding:50px;
     margin : 0 10px;
+    margin-bottom: 10px;
+    height:auto;
 }
 .newslinks{
     margin-bottom: 20px;
@@ -24,5 +29,22 @@
     box-shadow: inset 100px 0 0 0 grey;
     color: white;
     background-color: grey;
+    font-size: larger;
 }
 
+.carousel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+@media screen and ( max-width:1000px) {
+    .topPart{
+        display: flex;
+        flex-direction: row;
+    }
+    .ad{
+        display: none;
+    }
+}

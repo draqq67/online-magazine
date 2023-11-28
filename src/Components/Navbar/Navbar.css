@@ -2,11 +2,10 @@
 .navbar{
     margin-bottom: 5px;
     padding: 10px;
-    max-height:100px;
 }
 .leftnav,.rightnav{
 
-    max-height: 100px;
+
     margin-left : 20px;
     margin-right:0px;
     padding: 5px;

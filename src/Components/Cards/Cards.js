@@ -8,13 +8,13 @@ export default function Cards({data})
 {
     console.log(data)
     return(
-        <div>
+        <div className='homecards'>
             {
                 data.map((item,idx) => {
                     return (
 
-                    <Card  className=" border-light mb-3 bg-secondary bg-gradient" key={idx} >
-                    <Card.Img variant="top" src={item.src} />
+                    <Card className="homecard light mb-3 bg-secondary bg-gradient" key={idx} >
+                    <Card.Img className='homecard-img-top' variant="top" src={item.src} />
                     <Card.Body>
                       <Card.Title>{item.title}</Card.Title>
                       <Card.Text>
